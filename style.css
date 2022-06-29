@@ -127,13 +127,13 @@
 /* Stats Section */
 .stats-container {
     background-color: white;
-    padding: 0px 150px;
     padding-bottom: 50px;
     box-shadow: 15px 15px 35px grey;
 }
 
 .stats-container .card {
     border: 0;
+    margin-top: 50px;
 }
 
 .stats-container .card .card-title {
@@ -182,10 +182,23 @@ footer p {
 
     .about {
         background-image: url('./images/shapes/AboutBngSm.jpg');
+        padding-bottom: 35px;
     }
 
     .stats-container {
-        padding: 0 0;
         padding-bottom: 50px;
+    }
+
+    .recipe {
+        margin: 0 5%;
+    }
+
+    .recipe .col {
+        padding: 0;
+    }
+
+    .stats-container .col {
+        padding: 0;
+        width: 100%;
     }
 }
